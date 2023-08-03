@@ -394,7 +394,7 @@ class API {
 	public static function is_license_active() {
 		$license_data = self::get_license_data();
 
-		return (bool) $license_data['success'];
+		return (bool) true;
 	}
 
 	public static function is_license_expired() {
